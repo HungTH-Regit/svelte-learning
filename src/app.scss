@@ -1,0 +1,37 @@
+.errors {
+    color: red;
+    font-size: 14px;
+}
+
+.form-base {
+    width: 90%;
+    margin: 10px auto;
+    background-color: white;
+    padding: 30px 50px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    .item-form {
+        width: 100%;
+        margin: 10px auto;
+        display: flex;
+        align-items: center;
+
+        label {
+            width: 25%;
+        }
+
+        input {
+            padding: 5px 8px;
+            flex: 1;
+        }
+    }
+
+    .btn-submit {
+        width: 30%;
+        height: 30px;
+        margin: 10px auto 0;
+    }
+}
